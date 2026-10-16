@@ -49,21 +49,22 @@ export const myProjects = [
  {
   id: 3,
 
-  title: "Ventara Assistant",
+  title: "TrackFlow — Real-Time Fleet & Delivery Tracking",
 
   description:
-    "An AI-powered virtual assistant built with React that helps users interact naturally using modern conversational AI.",
+    "A real-time fleet tracking dashboard built with Node.js, Express, Socket.IO, EJS, and Leaflet, enabling live GPS tracking, driver monitoring, and delivery management.",
 
-  image: "/assets/projects/ventara.png",
+  image: "public/assets/projects/Trackflow.png",
 
   github:
-    "https://github.com/ananyasri20/Ai-chatbot",
+    "https://github.com/ananyasri20/Trackflow-realtime_tracker",
 
   tags: [
-    "React",
-    "OpenAI",
-    "Tailwind CSS",
-    "JavaScript",
+    "Node.js",
+    "Express",
+    "Socket.IO",
+    "EJS",
+    "Leaflet",
   ],
 },
 ];
