@@ -82,6 +82,16 @@ export const mySocials = [
   },
 ];
 export const experiences = [
+{
+    title: "Apprenticeship – ACC-HPC AI",
+    job: "C-DAC, Noida",
+    date: "Aug 2026 – Present",
+    contents: [
+      "Undertaking practical training in AI/ML, High-Performance Computing (HPC), Python, Linux, SQL, and Data Structures & Algorithms.",
+      "Practicing data processing, algorithmic problem-solving, and Linux-based development through hands-on programming assignments.",
+    ],
+  },
+
   {
     title: "Project Intern",
     job: "Infosys Springboard",
