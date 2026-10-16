@@ -25,29 +25,8 @@ export const myProjects = [
     ],
   },
 
-  {
-    id: 2,
-
-    title: "SkillBridge",
-
-    description:
-      "Volunteer management platform connecting NGOs and volunteers with authentication and real-time communication.",
-
-    image: "/assets/projects/SkillBridge.png",
-
-    github:
-      "https://github.com/ananyasri20/Skillbridge",
-
-    tags: [
-      "React",
-      "Socket.io",
-      "Express",
-      "MongoDB",
-    ],
-  },
-
  {
-  id: 3,
+  id: 2,
 
   title: "TrackFlow — Real-Time Fleet & Delivery Tracking",
 
@@ -68,6 +47,26 @@ export const myProjects = [
     "Leaflet",
   ],
 },
+{
+    id: 3,
+
+    title: "SkillBridge",
+
+    description:
+      "Volunteer management platform connecting NGOs and volunteers with authentication and real-time communication.",
+
+    image: "/assets/projects/SkillBridge.png",
+
+    github:
+      "https://github.com/ananyasri20/Skillbridge",
+
+    tags: [
+      "React",
+      "Socket.io",
+      "Express",
+      "MongoDB",
+    ],
+  },
 ];
 export const mySocials = [
   {
