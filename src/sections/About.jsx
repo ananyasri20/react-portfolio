@@ -1,8 +1,8 @@
 import { useRef } from "react";
 import Card from "../components/Card";
-import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { Frameworks } from "../components/Frameworks";
+import { WorldMap } from "../components/world-map";
 
 const About = () => {
   const grid2Container = useRef();
@@ -85,7 +85,7 @@ const About = () => {
 />
           </div>
         </div>
-        {/* Grid 3 */}
+        {/* Grid 3 
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
@@ -95,9 +95,41 @@ const About = () => {
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
-            <Globe />
+            <ErrorBoundary fallback={<p>Something went wrong</p>}>
+  <Globe />
+</ErrorBoundary>
           </figure>
-        </div>
+        </div>*/}
+     
+{/* Grid 3 */}
+<div className="relative flex h-full flex-col justify-between overflow-hidden rounded-3xl border border-white/10 bg-black p-5">
+  <div className="pointer-events-none absolute inset-0 flex items-center opacity-60">
+    <WorldMap
+      dots={[
+        {
+          start: { lat: 28.5355, lng: 77.391 },
+          end: { lat: 40.7128, lng: -74.006 },
+        },
+        {
+          start: { lat: 28.5355, lng: 77.391 },
+          end: { lat: 51.5072, lng: -0.1276 },
+        },
+        {
+          start: { lat: 28.5355, lng: 77.391 },
+          end: { lat: 35.6762, lng: 139.6503 },
+        },
+      ]}
+      lineColor="#6366f1"
+    />
+  </div>
+
+  <div className="relative z-10 mt-auto">
+    <p className="text-sm font-medium text-white">
+      Noida, India · Open to opportunities
+    </p>
+  </div>
+</div>
+
         {/* Grid 4 */}
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
