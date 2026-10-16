@@ -21,10 +21,8 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi,I'm Ananya Srivastava</p>
             <p className="subtext">
-              I specialize in developing modern web applications using React.js and the
-              MERN stack. From designing intuitive user interfaces to integrating secure
-              REST APIs and authentication systems, I love creating seamless digital
-              experiences.
+              I specialize in building modern web applications using React.js, the MERN stack, and Python.
+               From developing responsive user interfaces and secure REST APIs to working with NumPy, and Matplotlib, I enjoy creating scalable applications and exploring data-driven solutions.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -88,19 +86,19 @@ const About = () => {
 />
           </div>
         </div>
-        {/* Grid 3 
+        {Grid 3 
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
              <p className="subtext">
-            Lucknow, India • Open to Remote, Hybrid & Relocation Opportunities</p>
+            Noida,India • Open to Remote, Hybrid & Relocation Opportunities</p>
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
             <Globe />
           </figure>
-        </div> */}
+        </div>}
         {/* Grid 4 */}
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
@@ -115,8 +113,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
+              I work with modern programming languages, frameworks, and tools to develop scalable web applications, build efficient APIs, and create data-driven solutions.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
