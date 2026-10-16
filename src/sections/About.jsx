@@ -51,7 +51,6 @@ const About = () => {
 <Card
   style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
   text="MERN Stack"
-  image="public\assets\mern.png"
   containerRef={grid2Container}
 />
 
