@@ -54,7 +54,7 @@ export const myProjects = [
   description:
     "A real-time fleet tracking dashboard built with Node.js, Express, Socket.IO, EJS, and Leaflet, enabling live GPS tracking, driver monitoring, and delivery management.",
 
-  image: "public/assets/projects/Trackflow.png",
+  image: "assets/projects/Trackflow.png",
 
   github:
     "https://github.com/ananyasri20/Trackflow-realtime_tracker",
